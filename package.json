@@ -1,9 +1,9 @@
 {
   "name": "@marcelsud/nestjs-moleculer-module",
   "version": "0.1.0",
-  "description": "",
-  "author": "",
-  "private": true,
+  "description": "A NestJs Module for Moleculer",
+  "author": "Marcelo Santos <marcelsud at gmail.com>",
+  "private": false,
   "license": "MIT",
   "scripts": {
     "prebuild": "rimraf dist",
