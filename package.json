@@ -1,6 +1,6 @@
 {
   "name": "@marcelsud/nestjs-moleculer-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A NestJs Module for Moleculer",
   "author": "Marcelo Santos <marcelsud at gmail.com>",
   "private": false,

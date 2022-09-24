@@ -26,6 +26,10 @@ export type SubscriberProps =
     }
   | string;
 
+export interface Subscriber {
+  onMessage(ctx: Context, broker: ServiceBroker): Promise<void>;
+}
+
 export function Subscriber(props: SubscriberProps) {
   return applyDecorators(SetMetadata(SUBSCRIBER_METADATA_KEY, props));
 }
